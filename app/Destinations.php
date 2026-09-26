@@ -152,4 +152,9 @@ class Destinations extends Model
             return 0;
         }
     }
+
+    public function getFormattedPricingAttribute(): string
+    {
+        return number_format($this->price) . ' Riel';
+    }
 }

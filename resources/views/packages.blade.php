@@ -15,10 +15,10 @@
 				<li class="breadcrumb-item active">Destinations</li>
 			</ol>
 		</nav>
-		<h1 class="tt-page-title">Discover Kenya's <span class="accent">Wonders</span></h1>
+		<h1 class="tt-page-title">Discover Cambodia's <span class="accent">Wonders</span></h1>
 		<p class="tt-page-subtitle">
-			From the wild savannah of Maasai Mara to the pristine beaches of Diani,
-			explore our handpicked destinations that showcase Kenya's natural beauty.
+			From the ancient temples of Angkor Wat to the stunning beaches of Sihanoukville,
+			explore our handpicked destinations that showcase Cambodia's natural beauty.
 		</p>
 	</div>
 </section>
@@ -54,10 +54,10 @@
 							<label><i class="fas fa-dollar-sign"></i> Price Range</label>
 							<select class="tt-select" name="price_range">
 								<option value="">Any Price</option>
-								<option value="0-50000" {{ request('price_range') == '0-50000' ? 'selected' : '' }}>Under KSh 50,000</option>
-								<option value="50000-100000" {{ request('price_range') == '50000-100000' ? 'selected' : '' }}>KSh 50,000 - 100,000</option>
-								<option value="100000-200000" {{ request('price_range') == '100000-200000' ? 'selected' : '' }}>KSh 100,000 - 200,000</option>
-								<option value="200000+" {{ request('price_range') == '200000+' ? 'selected' : '' }}>Over KSh 200,000</option>
+								<option value="0-50000" {{ request('price_range') == '0-50000' ? 'selected' : '' }}>Under 50,000 Riel</option>
+								<option value="50000-100000" {{ request('price_range') == '50000-100000' ? 'selected' : '' }}>50,000 - 100,000 Riel</option>
+								<option value="100000-200000" {{ request('price_range') == '100000-200000' ? 'selected' : '' }}>100,000 - 200,000 Riel</option>
+								<option value="200000+" {{ request('price_range') == '200000+' ? 'selected' : '' }}>Over 200,000 Riel</option>
 							</select>
 						</div>
 					</div>
@@ -85,7 +85,7 @@
 			</h2>
 			<p class="tt-subtitle">
 				@if($destinations->count() > 0)
-					Showing {{ $destinations->count() }} amazing Kenyan destinations
+					Showing {{ $destinations->count() }} amazing Cambodia destinations
 				@else
 					No destinations found matching your criteria
 				@endif

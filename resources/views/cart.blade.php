@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', 'Shopping Cart - ToursTravel Kenya')
+@section('title', 'Shopping Cart - DerLeng Cambodia')
 
 @section('page')
 @include('partials.navbar')

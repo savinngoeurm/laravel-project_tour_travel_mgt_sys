@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', 'Contact Us - ToursTravel Kenya')
+@section('title', 'Contact Us - DerLeng Cambodia')
 
 @section('page')
 @include('partials.navbar')
@@ -16,7 +16,7 @@
 			</ol>
 		</nav>
 		<h1 class="tt-page-title">Get In <span class="accent">Touch</span></h1>
-		<p class="tt-page-subtitle">Ready to explore Kenya's wonders? We're here to help you plan the perfect adventure.</p>
+		<p class="tt-page-subtitle">Ready to explore Cambodia's wonders? We're here to help you plan the perfect adventure.</p>
 	</div>
 </section>
 
@@ -28,21 +28,21 @@
 				<div class="tt-contact-card text-center">
 					<div class="icon"><i class="fas fa-map-marker-alt"></i></div>
 					<h5>Visit Our Office</h5>
-					<p>Ole Sangale Road, Madaraka Estate<br>Nairobi, Kenya</p>
+					<p>Road 1, Phum Kamakor<br>Sangkat Svaypor, Battambang District, Cambodia</p>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3">
 				<div class="tt-contact-card text-center">
 					<div class="icon"><i class="fas fa-phone"></i></div>
 					<h5>Call Us</h5>
-					<p><a href="tel:+254712345678">+254 712 345 678</a><br>Mon - Sat: 8AM - 6PM</p>
+					<p><a href="tel:+254712345678">+855 712 345 678</a><br>Mon - Sat: 8AM - 6PM</p>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3">
 				<div class="tt-contact-card text-center">
 					<div class="icon"><i class="fas fa-envelope"></i></div>
 					<h5>Email Us</h5>
-					<p><a href="mailto:info@tourstravel.ke">info@tourstravel.ke</a><br>We reply within 24 hours</p>
+					<p><a href="mailto:info@tourstravel.ke">info@derleng.kh</a><br>We reply within 24 hours</p>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3">
@@ -168,7 +168,7 @@
 					<div class="accordion-item">
 						<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Do you offer customized itineraries?</button></h2>
 						<div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-							<div class="accordion-body">Absolutely! We specialize in tailor-made experiences. Contact us with your preferences, budget, and travel dates, and we'll craft the perfect Kenyan adventure.</div>
+							<div class="accordion-body">Absolutely! We specialize in tailor-made experiences. Contact us with your preferences, budget, and travel dates, and we'll craft the perfect Cambodian adventure.</div>
 						</div>
 					</div>
 					<div class="accordion-item">

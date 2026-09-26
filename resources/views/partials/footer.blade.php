@@ -6,10 +6,10 @@
 			<div class="col-lg-4">
 				<div class="d-flex align-items-center gap-2 mb-3">
 					<div class="brand-icon"><i class="fas fa-globe-africa"></i></div>
-					<h4 class="mb-0">Tours<span class="brand-accent" style="color:var(--tt-accent)">Travel</span></h4>
+					<h4 class="mb-0">Der<span class="brand-accent" style="color:var(--tt-accent)">Leng</span></h4>
 				</div>
 				<p class="mb-3">
-					Your trusted local guide to Kenya's most incredible destinations.
+					Your trusted local guide to Cambodia's most incredible destinations.
 					We create authentic experiences that connect you with our beautiful homeland.
 				</p>
 				<div class="social-links">
@@ -45,15 +45,15 @@
 				<h5>Contact Info</h5>
 				<div class="contact-row">
 					<i class="fas fa-map-marker-alt"></i>
-					<span>Ole Sangale Road, Madaraka Estate<br>Nairobi, Kenya</span>
+					<span>Road 1, Phum Kamakor<br>Sangkat Svaypor, Battambang Disctrict, Cambodia</span>
 				</div>
 				<div class="contact-row">
 					<i class="fas fa-phone"></i>
-					<span>+254 712 345 678</span>
+					<span>+855 712 345 678</span>
 				</div>
 				<div class="contact-row">
 					<i class="fas fa-envelope"></i>
-					<span>info@tourstravel.ke</span>
+					<span>info@derleng.kh</span>
 				</div>
 			</div>
 		</div>
@@ -62,7 +62,7 @@
 		<div class="tt-footer-bottom">
 			<div class="row align-items-center">
 				<div class="col-md-6">
-					<p>&copy; {{ date('Y') }} ToursTravel Kenya. All rights reserved.</p>
+					<p>&copy; {{ date('Y') }} DerLeng Cambodia. All rights reserved.</p>
 				</div>
 				<div class="col-md-6 text-md-end">
 					<a href="#" class="me-3">Privacy Policy</a>

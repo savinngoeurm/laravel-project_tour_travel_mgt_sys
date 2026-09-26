@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', 'About Us - ToursTravel Kenya')
+@section('title', 'About Us - DerLeng Cambodia')
 
 @section('page')
 @include('partials.navbar')
@@ -15,9 +15,9 @@
 				<li class="breadcrumb-item active">About</li>
 			</ol>
 		</nav>
-		<h1 class="tt-page-title">Discover Kenya with <span class="accent">Local Experts</span></h1>
+		<h1 class="tt-page-title">Discover Cambodia with <span class="accent">Local Experts</span></h1>
 		<p class="tt-page-subtitle">
-			Born and raised in Kenya, we share our homeland's beauty, culture,
+			Born and raised in Cambodia, we share our homeland's beauty, culture,
 			and hidden gems with passionate travelers from around the world.
 		</p>
 	</div>
@@ -29,15 +29,15 @@
 		<div class="row align-items-center g-5">
 			<div class="col-lg-6" data-aos="fade-right">
 				<div class="tt-pretitle">Our Story</div>
-				<h2 class="tt-title mb-3">Born in Kenya, <span class="accent">Sharing with the World</span></h2>
+				<h2 class="tt-title mb-3">Born in Cambodia, <span class="accent">Sharing with the World</span></h2>
 				<p>
-					ToursTravel began as a dream to share Kenya's incredible beauty with the world.
-					As local Kenyans, we know the secret spots, the authentic cultural experiences,
+					DerLeng began as a dream to share Cambodia's incredible beauty with the world.
+					As local Cambodians, we know the secret spots, the authentic cultural experiences,
 					and the breathtaking landscapes that make our country truly magical.
 				</p>
 				<p>
-					From the vast savannas of Maasai Mara to the pristine beaches of Diani,
-					from Mount Kenya's snow-capped peaks to the vibrant streets of Nairobi — we
+					From the Angkor Wat to the Kirirom,
+					from Mount Cambodia's forest-filled peaks to the vibrant streets of Phnom Penh — we
 					create authentic experiences that connect you deeply with our homeland.
 				</p>
 				<div class="tt-stats-row mt-4">
@@ -73,7 +73,7 @@
 					<div class="icon"><i class="fas fa-compass"></i></div>
 					<h3>Our Mission</h3>
 					<p>
-						To showcase Kenya's natural wonders and rich cultural heritage through
+						To showcase Cambodia's natural wonders and rich cultural heritage through
 						authentic, sustainable tourism experiences that benefit local communities
 						while creating unforgettable memories for our guests.
 					</p>
@@ -84,7 +84,7 @@
 					<div class="icon"><i class="fas fa-eye"></i></div>
 					<h3>Our Vision</h3>
 					<p>
-						To be Kenya's most trusted and respected tourism company, known for
+						To be Cambodia's most trusted and respected tourism company, known for
 						delivering exceptional experiences that inspire conservation, cultural
 						appreciation, and meaningful connections between visitors and our homeland.
 					</p>
@@ -99,15 +99,15 @@
 	<div class="container">
 		<div class="tt-section-header text-center" data-aos="fade-up">
 			<div class="tt-pretitle">What Makes Us Different</div>
-			<h2 class="tt-title">Why Choose <span class="accent">ToursTravel</span></h2>
-			<p class="tt-subtitle">As local Kenyans, we offer authentic experiences you won't find anywhere else.</p>
+			<h2 class="tt-title">Why Choose <span class="accent">DerLeng</span></h2>
+			<p class="tt-subtitle">As local Cambodians, we offer authentic experiences you won't find anywhere else.</p>
 		</div>
 		<div class="row g-4">
 			<div class="col-md-6 col-lg-4" data-aos="fade-up">
 				<div class="tt-feature-card">
 					<div class="icon"><i class="fas fa-hiking"></i></div>
 					<h4>Authentic Adventures</h4>
-					<p>Experience Kenya through local eyes with authentic cultural immersion and off-the-beaten-path adventures.</p>
+					<p>Experience Cambodia through local eyes with authentic cultural immersion and off-the-beaten-path adventures.</p>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
@@ -121,7 +121,7 @@
 				<div class="tt-feature-card">
 					<div class="icon"><i class="fas fa-user-tie"></i></div>
 					<h4>Expert Guides</h4>
-					<p>Our passionate Kenyan guides share stories, traditions, and insights that bring destinations to life.</p>
+					<p>Our passionate Cambodian guides share stories, traditions, and insights that bring destinations to life.</p>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
@@ -161,14 +161,14 @@
 				<div class="tt-value-card text-center">
 					<div class="icon"><i class="fas fa-leaf"></i></div>
 					<h4>Sustainability</h4>
-					<p>We're committed to protecting Kenya's natural beauty and wildlife for future generations through responsible tourism.</p>
+					<p>We're committed to protecting Cambodia's natural beauty and wildlife for future generations through responsible tourism.</p>
 				</div>
 			</div>
 			<div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
 				<div class="tt-value-card text-center">
 					<div class="icon"><i class="fas fa-handshake"></i></div>
 					<h4>Authenticity</h4>
-					<p>Every experience we offer is genuine, connecting you with real Kenyan culture, traditions, and stories.</p>
+					<p>Every experience we offer is genuine, connecting you with real Cambodian culture, traditions, and stories.</p>
 				</div>
 			</div>
 			<div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
@@ -185,8 +185,8 @@
 <!-- Stats Banner -->
 <section class="tt-stats-banner" data-aos="fade-up">
 	<div class="container">
-		<h2 class="text-center text-white mb-2">Make Your Kenya Tour <span class="accent">Memorable & Safe</span></h2>
-		<p class="text-center text-white-50 mb-5">Guided thousands of visitors through Kenya's most incredible experiences.</p>
+		<h2 class="text-center text-white mb-2">Make Your Cambodia Tour <span class="accent">Memorable & Safe</span></h2>
+		<p class="text-center text-white-50 mb-5">Guided thousands of visitors through Cambodia's most incredible experiences.</p>
 		<div class="row g-4 text-center">
 			<div class="col-6 col-md-3">
 				<div class="tt-stat-banner-item">
@@ -224,8 +224,8 @@
 <section class="tt-cta" data-aos="zoom-in">
 	<div class="container text-center">
 		<i class="fas fa-compass fa-3x mb-3" style="color: var(--tt-accent);"></i>
-		<h2>Ready to Explore Kenya?</h2>
-		<p>Let our local expertise guide you through an authentic Kenyan adventure.</p>
+		<h2>Ready to Explore Cambodia?</h2>
+		<p>Let our local expertise guide you through an authentic Cambodian adventure.</p>
 		<div class="d-flex gap-3 justify-content-center flex-wrap">
 			<a href="{{ route('packages') }}" class="btn-tt-white"><i class="fas fa-globe-africa me-2"></i> View Destinations</a>
 			<a href="{{ route('contact') }}" class="btn-tt-outline" style="border-color:white;color:white;"><i class="fas fa-phone me-2"></i> Plan My Trip</a>

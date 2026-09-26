@@ -1,19 +1,65 @@
+# Dependencies
 /node_modules
+/vendor
+
+# Environment files (secrets)
+.env
+.env.backup
+.env.production
+.env.*.local
+*.pem
+*.key
+
+# Laravel storage & cache
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
-.env
-.env.backup
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+!/storage/framework/cache/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/views/.gitignore
+!/storage/framework/testing/.gitignore
+/storage/logs/*.log
+/bootstrap/cache/*.php
+!/bootstrap/cache/.gitignore
+
+# User-uploaded content (don't version control uploads)
+/storage/app/public/*
+!/storage/app/public/.gitignore
+
+# Testing artifacts
 .phpunit.result.cache
+/.phpunit.cache
+/tests/coverage
+
+# Homestead / Vagrant
 Homestead.json
 Homestead.yaml
+
+# Node / npm / yarn logs
 npm-debug.log
 yarn-error.log
+
+# IDE / editor
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Project-specific (internal notes, not for repo)
 /theme
-composer.lock
 instructions.md
 RAILWAY_TROUBLESHOOTING.md
 RAILWAY_MYSQL_FIX.md
 RAILWAY_DEPLOY.md
-PULL_REQUEST_TEMPLATE.md.env
+PULL_REQUEST_TEMPLATE.md

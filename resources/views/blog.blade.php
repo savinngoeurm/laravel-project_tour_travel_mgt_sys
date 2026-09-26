@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', 'Blog - ToursTravel Kenya')
+@section('title', 'Blog - DerLeng Cambodia')
 
 @section('page')
 @include('partials.navbar')
@@ -15,9 +15,9 @@
 				<li class="breadcrumb-item active">Blog</li>
 			</ol>
 		</nav>
-		<h1 class="tt-page-title">Kenya Travel <span class="accent">Stories</span></h1>
+		<h1 class="tt-page-title">Cambodia Travel <span class="accent">Stories</span></h1>
 		<p class="tt-page-subtitle">
-			Discover insider tips, travel stories, and hidden gems across Kenya's stunning landscapes and rich culture.
+			Discover insider tips, travel stories, and hidden gems across Cambodia's stunning landscapes and rich culture.
 		</p>
 	</div>
 </section>
@@ -28,7 +28,7 @@
 		<div class="tt-section-header text-center" data-aos="fade-up">
 			<div class="tt-pretitle">Latest from Our Blog</div>
 			<h2 class="tt-title">Stories & <span class="accent">Insights</span></h2>
-			<p class="tt-subtitle">Get inspired by authentic travel experiences and expert tips from our Kenya adventures.</p>
+			<p class="tt-subtitle">Get inspired by authentic travel experiences and expert tips from our Cambodia adventures.</p>
 		</div>
 
 		<div class="tt-blog-grid">
@@ -42,13 +42,13 @@
 				<div class="tt-blog-card-body">
 					<div class="tt-blog-card-meta">
 						<span><i class="fas fa-calendar-alt"></i> {{ $blog->created_at ? $blog->created_at->format('M d, Y') : 'Recent' }}</span>
-						<span><i class="fas fa-user"></i> ToursTravel Team</span>
+						<span><i class="fas fa-user"></i> DerLeng Team</span>
 					</div>
 					<h3 class="tt-blog-card-title">
 						<a href="#">{{ $blog->title }}</a>
 					</h3>
 					<p class="tt-blog-card-desc">
-						{{ Str::limit($blog->description ?? 'Discover amazing travel experiences and insights that will inspire your next Kenya adventure.', 150) }}
+						{{ Str::limit($blog->description ?? 'Discover amazing travel experiences and insights that will inspire your next Cambodia adventure.', 150) }}
 					</p>
 					<a href="#" class="tt-blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
 				</div>
@@ -67,7 +67,7 @@
 	<div class="container">
 		<div class="tt-newsletter-inner">
 			<div class="tt-newsletter-icon"><i class="fas fa-envelope-open-text"></i></div>
-			<h2>Stay Updated with Kenya Travel Tips</h2>
+			<h2>Stay Updated with Cambodia Travel Tips</h2>
 			<p>Get the latest travel stories, tips, and exclusive offers delivered to your inbox.</p>
 			<form class="tt-newsletter-form" method="POST" action="#">
 				@csrf

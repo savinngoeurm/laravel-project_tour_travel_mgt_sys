@@ -43,7 +43,7 @@
                 <div class="col-md-6">
                     <label for="pricing" class="form-label">Pricing</label>
                     <input type="text" class="form-control" name="pricing" id="pricing"
-                           value="{{ isset($destinations) ? $destinations->pricing : '' }}" placeholder="e.g. Kshs 45000">
+                           value="{{ isset($destinations) ? $destinations->pricing : '' }}" placeholder="e.g. 45000 Riel">
                 </div>
                 <div class="col-md-6">
                     <label for="category" class="form-label">Category</label>

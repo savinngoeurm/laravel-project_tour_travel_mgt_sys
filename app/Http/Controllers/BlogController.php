@@ -27,7 +27,7 @@ class BlogController extends Controller
     public function store(CreateBlogRequest $request)
     {
         // upload image
-        $image = $request->image->store('blogs');
+        $image = $request->image->store('blogs', 'public');
         // create post
         $destination = Blog::create([
             'title' => $request->title,
@@ -47,7 +47,8 @@ class BlogController extends Controller
 
     public function show($id)
     {
-        //
+        $blog = Blog::findOrFail($id);
+        return view('blog.show')->with('blog', $blog);
     }
 
     /**
@@ -75,7 +76,7 @@ class BlogController extends Controller
         if ($request->hasFile('image')) {
 
             // upload and delete
-            $image = $request->image->store('blogs');
+            $image = $request->image->store('blogs', 'public');
 
             $blog->deleteImage();
 
@@ -97,7 +98,16 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id) {}
+    public function destroy($id) {
+        $blog = Blog::findOrFail($id);
+
+        $blog->deleteImage();
+        $blog->delete();
+
+        session()->flash('success', 'Blog deleted successfully');
+
+        return redirect(route('blog.index'));
+    }
 
     /**
      * Display a list of unavailable destinations.
